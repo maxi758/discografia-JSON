@@ -80,9 +80,10 @@ header h1{
     margin-right: 25px;
     margin-left: 15px;
 }
-.container {
-    display:inline-flex;
+#container{
+    display:block;
     margin-left: 90px;
+    text-align: center;
 }
 .temas a>button:hover{
     border:groove 5px skyblue;

@@ -29,7 +29,7 @@ app.get("/disco", (req, res)=>{
     if(artist){
         result = result.filter((disco)=>disco.artista.toLocaleLowerCase().includes(artist.toLocaleLowerCase()));
     }
-    
+    console.log(result);
     res.json(result);
 });
 
